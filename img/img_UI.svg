@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="561px" height="360px" viewBox="0 0 561 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon UI</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-1" transform="translate(-922.000000, -437.000000)">
+            <g id="Icon-UI" transform="translate(922.000000, 437.000000)">
+                <text id="UI-Kits" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="40" font-weight="normal" fill="#D8D8D8">
+                    <tspan x="0" y="38">UI Kits</tspan>
+                </text>
+                <text id="Mockups" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="40" font-weight="normal" fill="#D8D8D8">
+                    <tspan x="388" y="314">Mockups</tspan>
+                </text>
+                <g id="Img---UI" transform="translate(10.000000, 80.000000)">
+                    <g id="Palet-2" transform="translate(200.500000, 222.000000) rotate(-270.000000) translate(-200.500000, -222.000000) translate(147.000000, 84.000000)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="107" height="276" rx="26"></rect>
+                        <ellipse id="Oval" fill="#272E3F" cx="84.9705882" cy="254.045455" rx="14.9485294" ry="14.8977273"></ellipse>
+                        <rect id="Rectangle" fill-opacity="0.1" fill="#2C45AB" x="16.5220588" y="33.7159091" width="73.9558824" height="53.3181818" rx="8"></rect>
+                        <rect id="Rectangle" fill-opacity="0.5" fill="#2C45AB" x="16.5220588" y="102.715909" width="73.9558824" height="53.3181818" rx="8"></rect>
+                        <rect id="Rectangle" fill="#2C45AB" x="16.5220588" y="170.931818" width="73.9558824" height="53.3181818" rx="8"></rect>
+                    </g>
+                    <g id="Palet-2" transform="translate(156.090305, 149.844956) rotate(-310.000000) translate(-156.090305, -149.844956) translate(102.694503, 11.644057)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="106.791604" height="276.401799" rx="26"></rect>
+                        <circle id="Oval" fill="#272E3F" cx="84.8050974" cy="254.415292" r="14.9194153"></circle>
+                        <rect id="Rectangle" fill-opacity="0.1" fill="#E5B415" x="16.48988" y="33.7649925" width="73.811844" height="53.3958021" rx="8"></rect>
+                        <rect id="Rectangle" fill-opacity="0.5" fill="#E5B415" x="16.48988" y="102.865442" width="73.811844" height="53.3958021" rx="8"></rect>
+                        <rect id="Rectangle" fill="#E5B415" x="16.48988" y="171.18066" width="73.811844" height="53.3958021" rx="8"></rect>
+                    </g>
+                    <g id="Palet-1">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="107" height="276" rx="26"></rect>
+                        <ellipse id="Oval" fill="#272E3F" cx="84.9705882" cy="254.045455" rx="14.9485294" ry="14.8977273"></ellipse>
+                        <rect id="Rectangle" fill-opacity="0.1" fill="#B71313" x="16.5220588" y="33.7159091" width="73.9558824" height="53.3181818" rx="8"></rect>
+                        <rect id="Rectangle" fill-opacity="0.5" fill="#B71313" x="16.5220588" y="102.715909" width="73.9558824" height="53.3181818" rx="8"></rect>
+                        <rect id="Rectangle" fill="#B71313" x="16.5220588" y="170.931818" width="73.9558824" height="53.3181818" rx="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
