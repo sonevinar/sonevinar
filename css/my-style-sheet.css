@@ -1,0 +1,192 @@
+/*my style sheet*/
+/*---------------------------------import Fonts---------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Calistoga', cursive;
+}
+.btn_style a,
+.btn_style a:hover{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #3C3F51;
+}
+/*---------------------------------header style---------------------------------------*/
+.header_section{
+    background-image: url(../images/background-header.jpg);
+}
+.logo-sonevinar{
+    width: 1.8rem;
+}
+.name-sonevinar{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF;
+}
+.banner_text{
+    font-weight: 400;
+    color: #3C3F51;
+}
+.author-img-header,
+.author-img-header a:hover{
+    color: #282A34;
+}
+.banner_section{
+    padding-bottom: 2.3rem;
+}
+.author-img > a:hover{
+    color: #282A34;
+}
+li{
+    font-weight: 700;
+}
+.menu_main li a:hover {
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0);
+}
+/*---------------------------section what I do style----------------------------------*/
+.title-h1{
+    font-family: 'Calistoga', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #3C3F51;
+}
+.col-md-4 > .btn_main a{
+    color: #E2336B;
+    background-color: #FFF;
+    border: #E2336B solid 0.2rem !important;
+}
+.col-md-4:nth-child(2) > .btn_main a{
+    color: #282A34;
+    background-color: #FFF;
+    border: #282A34 solid 0.2rem !important;
+}
+.col-md-4:hover{
+    cursor: pointer;
+}
+.col-md-4:hover > .btn_main a{
+    color: #FFF;
+    background-color: #E2336B;
+}
+.col-md-4:nth-child(2):hover  > .btn_main a{
+    color: #FFF;
+    background-color: #282A34;
+}
+.about_img{
+    max-width: 28rem;
+    height: auto;
+}
+.author-img-card{
+    position: absolute;
+    right: 1rem !important;
+    top: 17rem;
+    color: #E2336B;
+    z-index: 2;
+}
+.active > .author-img-card {
+    color: #282A34;
+}
+.author-img-card a{
+    color: #E2336B;
+}
+.active > .author-img-card a{
+    color: #282A34;
+}
+.services_img{
+    height: 20rem;
+}
+.services_text{
+    width: 70%;
+}
+.services_img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+.btn_main:hover{
+    opacity: 0.3;
+}
+.btn_main:hover a{
+    cursor: not-allowed;
+}
+.web-design{
+    background-image: url(../images/laptop.png);
+}
+.web-design:hover{
+    background-image: url(../images/laptop-hover.png);
+}
+.graphic-design{
+    background-image: url(../images/banana.png);
+}
+.graphic-design:hover{
+    background-image: url(../images/banana-hover.png);
+}
+.ux-ui{
+    background-image: url(../images/pencil.png);
+}
+.ux-ui:hover{
+    background-image: url(../images/pencil-hover.png);
+}
+/*-------------------------------section footer---------------------------------------*/
+.footer_section{
+    background-image: url(../images/background-contact.png);
+    padding-top: 10rem;
+    padding-bottom: 0.2rem;
+}
+.subscribe_bt{
+    border: 0.2rem solid #E2336B;
+    background-color: #E2336B;
+    border-radius: 1.5rem;
+}
+.subscribe_bt a,
+.subscribe_bt a:hover{
+    color: #FFF;
+    font-weight: 700;
+}
+.list-icon > a{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #E2336B;
+    cursor: pointer;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+.list-icon > a:hover{
+    color: #FFF;
+    background-color: #E2336B;
+}
+.social_icon ul {
+    gap: 1.5rem;
+}
+.copyright_section{
+    background-color: #FCAC46;
+}
+.copyright_text{
+    color: #282A34;
+}
+.author-img-footer, .author-img-footer > a{
+    color: #FCAC46;
+}
+@media (min-width: 767px){
+    .input_btn_main_responsive{
+        display: none !important;
+    }
+}
+.subscribe_bt:hover{
+    opacity: 0.3;
+}
+.subscribe_bt:hover a{
+    cursor: not-allowed;
+}
+.disabled, .disabled a{
+    opacity: 0.3;
+    cursor: not-allowed;
+}

@@ -1,0 +1,111 @@
+/*my style sheet responsive*/
+/*----------------------------header mobile style-------------------------------------*/
+@media (max-width: 767px){
+    p {
+        font-size: 1.3rem !important;
+        line-height: 1.8rem !important;
+    } 
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+    .header_section {
+        background-image: url(../images/background-header-responsive.png);
+    }
+    .logo_mobile{
+        width: auto;
+    }
+    .banner_taital {
+        color: #FFF;
+        margin-bottom: 2rem;
+    }
+
+    .navbar-toggler{
+        background-color: #ffffff00;
+    }
+    .navbar-toggler-icon{
+        background-image: url(../images/icon-collapse.svg) !important;
+        width: 2.4rem;
+    }
+    .banner_text{
+        color: #FFF;
+    }
+    .author-img-header, .author-img-header a{
+        color: #FFF;
+    }       
+    .btn_style a{
+        color: #3C3F51;
+        background-color: #FFF;
+        font-size: 1.3rem;
+    }  
+    .navbar-light .navbar-nav .nav-link:hover{
+        background-color: rgba(0, 0, 0, 0);
+    } 
+    /*-------------------------section what I do style--------------------------------*/
+    .author-img-card{
+        top: 12rem;
+    }
+    .services_img{
+        height: 12rem;
+    }
+    .web-design{
+        background-image: url(../images/laptop-hover.png);
+    }
+    .graphic-design{
+        background-image: url(../images/banana-hover.png);
+    }
+    .ux-ui{
+        background-image: url(../images/pencil-hover.png);
+    }
+    /*--------------------------section About me style--------------------------------*/
+    .readmore_bt a{
+        color: #FFF;
+        background-color: #3C3F51;
+    }
+    .about_img{
+        padding-top: 5rem;
+    }
+    /*---------------------------footer About me style--------------------------------*/
+    .footer_section{
+        background-image: url(../images/background-contact-responsive.png);
+    }
+    .copyright_text{
+        padding: 1.3rem 0;
+    }
+    .input_btn_main {
+        display: none;
+    }
+    .input_btn_main_responsive {
+        background-color: #FFF;
+        border-radius: 1.5rem;
+        position: relative;
+        padding-bottom: 5rem;
+    }
+    textarea{
+        width: 100%;
+        font-size: 1.3rem;
+        resize: none;
+        padding: 21px;
+        border-radius: 1.5rem;
+        border: none;
+        overflow: auto;
+        outline: none;
+        box-shadow: none;
+    }
+    .subscribe_bt {
+        position: absolute;
+        bottom: 1rem;
+        width: 90%;
+        font-size: 1.3rem;
+    }
+    .subscribe_bt a{
+        margin: 0;
+        color: #FFF;
+        background-color: #E2336B;
+    }
+    .list-icon > a{
+        font-size: 2rem;
+    }
+    .social_icon ul{
+        gap: 2rem;
+    }
+}
